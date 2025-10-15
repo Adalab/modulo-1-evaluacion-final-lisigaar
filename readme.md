@@ -23,4 +23,34 @@ La página está compuesta por varias secciones que simulan una landing page pro
    - Maquetada con estilos libres usando Flexbox y CSS tradicional.  
 
 4. **Vuelta al cole**  
-   - Listado de tres product
+   - Listado de tres productos o bloques visuales.  
+   - Maquetada con **CSS Grid** para lograr un diseño adaptable.  
+
+5. **Footer**  
+   - Incluye enlaces a [Adalab.es](https://adalab.es) en todas las columnas.  
+   - Contiene un botón animado que permite volver al inicio de la página.  
+
+---
+
+## 🎨 Interacciones y efectos
+
+- El botón de flecha del **hero** enlaza a la sección *Vuelta al cole*.  
+- El botón sobre el **footer** enlaza de nuevo al inicio.  
+- Los botones “Comprar” y “Empezar ahora” incluyen efectos `:hover` con propiedades `transform` y `transition`.  
+- BONUS: se ha añadido una **animación en el botón del footer**.  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **HTML5** → Estructura semántica del contenido.  
+- **CSS3** → Flexbox, Grid, media queries, transiciones y animaciones.  
+
+---
+
+👩‍💻 Autora
+
+Proyecto desarrollado por Lis
+Promo 58 — Adalab 💚
+
+---
