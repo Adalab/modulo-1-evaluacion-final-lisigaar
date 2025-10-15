@@ -36,8 +36,7 @@ La página está compuesta por varias secciones que simulan una landing page pro
 
 - El botón de flecha del **hero** enlaza a la sección *Vuelta al cole*.  
 - El botón sobre el **footer** enlaza de nuevo al inicio.  
-- Los botones “Comprar” y “Empezar ahora” incluyen efectos `:hover` con propiedades `transform` y `transition`.  
-- BONUS: se ha añadido una **animación en el botón del footer**.  
+- Los botones “Comprar” y “Empezar ahora” incluyen efectos `:hover`
 
 ---
 

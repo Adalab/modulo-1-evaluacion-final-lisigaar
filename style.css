@@ -1,3 +1,5 @@
+/* PROYECT ADASPORT STORE by Lis */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
   font-style: normal;
 }
 
-/* HERO SECTION */
+/* HEADER SECTION */
 
 .movil-menu {
   position: fixed;        
@@ -24,6 +26,8 @@
   display: block; 
   cursor: pointer; 
 }
+
+/* HERO SECTION */
 
 .hero-section {
   display: block;
@@ -108,7 +112,7 @@
   color: #4a4a4a;
   font-family: Roboto;
   line-height: 1.88rem;
-  margin-bottom: 3.63rem
+  margin-bottom: 3.63rem;
 }
 
 .feauture-botton {
@@ -133,7 +137,7 @@
   grid-template-rows: 1fr;
   justify-items: center;
   text-align: center;
-  padding: 2rem 1.06rem 2rem 0.81rem;
+  padding-bottom: 2rem ;
 }
 
 .products-section-tittle {
@@ -200,7 +204,7 @@
   height: auto;
 }
 
-/* PRODUCTS SECTION */
+/* FOOTER SECTION */
 
 .footer-section {
   background-color: #4a4a4a;
@@ -250,12 +254,44 @@ padding-bottom: 1.5rem;
 color: #6c933e;
 }
 
-
 /* VERSIÓN TABLET*/
 @media (min-width: 768px){
 
+  .hero-tittle {
+    font-size: 4.69rem;
+    line-height: 1.33;
+    padding-top: 6rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    line-height: 1.75rem;
+    padding: 0 14rem 2rem 14rem
+  }
+
+  .feautures-section {
+    padding: 2.33rem 2.44rem 2.59rem 2.32rem;
+  }
+
+  .feautures-presentation {
+    font-size: 1rem;
+  }
+
+  .feautures-tittle {
+    font-size: 1.88rem
+  }
+
+  .feautures-text {
+    font-size: 1.25rem;
+    line-height: 1.88rem;
+    weight: regular;
+    margin-bottom: 1.5rem;
+  }
+
   .products-section {
-    grid-template-columns: repeat(3, 1fr); /* tres columnas */
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-areas:
       "titulo titulo titulo"
       "subtitulo subtitulo subtitulo"
@@ -263,12 +299,19 @@ color: #6c933e;
       "boton boton boton";
   }
 
+  .products-section h3 {
+      font-size: 1.13rem;
+      weight: bold;
+    }
+
   .products-section-tittle {
     grid-area: titulo;
+    font-size: 0.75rem;
   }
 
   .products-section-text {
     grid-area: subtitulo;
+    font-size: 1.75rem;
   }
 
   .mochila-section {
@@ -300,6 +343,39 @@ color: #6c933e;
 /* VERSIÓN ESCRITORIO */
 @media (min-width: 1024px){
 
+  .hero-tittle {
+    font-size: 4.69rem;
+    line-height: 1.33;
+    padding-top: 6rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    line-height: 1.75rem;
+    padding: 0 14rem 2rem 14rem
+  }
+
+  .feautures-section {
+    padding: 2.33rem 2.44rem 2.59rem 2.32rem;
+  }
+
+  .feautures-presentation {
+    font-size: 1rem;
+  }
+
+  .feautures-tittle {
+    font-size: 1.88rem
+  }
+
+  .feautures-text {
+    font-size: 1.25rem;
+    line-height: 1.88rem;
+    weight: regular;
+    margin-bottom: 1.5rem;
+  }
+
   .products-section {
     grid-template-columns: repeat(3, 1fr); 
     grid-template-areas:
@@ -309,12 +385,19 @@ color: #6c933e;
       "boton boton boton";
   }
 
+  .products-section h3 {
+      font-size: 1.13rem;
+      weight: bold;
+    }
+
   .products-section-tittle {
     grid-area: titulo;
+    font-size: 0.75rem;
   }
 
   .products-section-text {
     grid-area: subtitulo;
+    font-size: 1.75rem;
   }
 
   .mochila-section {
@@ -338,7 +421,6 @@ color: #6c933e;
     grid-template-areas: "info categories redes";
     text-align: left;
     align-items: start;
-    gap: 5rem;
+    gap: 15rem;
   }
 } 
- 
