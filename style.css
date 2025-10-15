@@ -1,3 +1,4 @@
+
 /* PROYECT ADASPORT STORE by Lis */
 
 * {
@@ -266,6 +267,19 @@ padding-bottom: 1.5rem;
 
 .corazon-verde {
 color: #6c933e;
+}
+
+.categories-link,
+.redes-link {
+  color: #ffffff;             /* blanco siempre */
+  text-decoration: none;      /* quita el subrayado */
+  transition: color 0.3s ease;
+}
+
+/* al pasar el ratón por encima */
+.categories-link:hover,
+.redes-link:hover {
+  color: #6c933e;             /* verde bonito */
 }
 
 /* VERSIÓN TABLET*/
