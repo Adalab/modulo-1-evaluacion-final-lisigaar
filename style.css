@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Roboto", "Roboto Slab", "sans-serif";
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* HERO SECTION */
+
+.movil-menu {
+  position: fixed;        
+  z-index: 1000;  
+  margin-right: auto; 
+  background-color: #6c933e;
+  weight: 2.81rem;
+  height: auto; 
+  padding: 0.50rem; 
+  display: block; 
+  cursor: pointer; 
+}
+
+.hero-section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white; 
+  background-image: url('./images/cover.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 84% center; 
+}
+
+.hero {
+  padding: 18rem 0.5em 6rem 0.5rem;
+}
+
+.hero-tittle {
+ font-size: 2rem;
+ text-align: center;
+ weight: bold; 
+ line-height: 3.50rem;
+ font-family: "Roboto Slab";
+ padding-block: 1rem;
+}
+
+.hero-text {
+ font-family: "Roboto";
+ font-size: 1rem;
+ line-height: 1.25rem;
+ text-align: center;
+ padding: 0rem 3.5rem 1rem 3.5rem;
+}
+
+.hero-botton-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botton-down {
+  width: 1.50rem;                        
+  height: auto;
+}
+
+/* FEAUTURES SECTION */
+
+.feautures-section {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 2rem 1.06rem 2rem 0.81rem;
+}
+
+.feautures-presentation {
+  font-size: 0.88rem;
+  color: #6c933e;
+  line-height: 2.14;
+  font-family: "Roboto";
+}
+
+.feautures-tittle {
+  font-size: 1.38rem;
+  color: #000000;
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  line-height: 1.36;
+  margin-bottom: 0.63rem;
+}
+
+.feautures-text {
+  font-size: 1.13rem;
+  color: #4a4a4a;
+  font-family: Roboto;
+  line-height: 1.88rem;
+  margin-bottom: 3.63rem
+}
+
+.feauture-botton {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: normal;
+  border: 2px solid #6c933e;
+  border-radius: 1.41rem;
+  color: #6c933e ;
+  text-align: center;
+  line-height: 2.25rem;
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* PRODUCTS SECTION */
+
+.products-section {
+  background-color: #d9e4cc;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  text-align: center;
+  padding: 2rem 1.06rem 2rem 0.81rem;
+}
+
+.products-section-tittle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #626262;
+  line-height: 1.5rem;
+  font-family: "Roboto Slab";
+  padding: 1rem 0.69rem 0.3rem 0.75rem;
+}
+
+.products-section-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000000;
+  line-height: 1.88rem;
+  font-family: "Roboto Slab";
+  padding: 0 1.06rem 1rem 0.81rem;
+}
+
+.products-section img {
+  width: 45%;
+  object-fit: cover;
+  border-radius: 12.5rem;
+}
+
+.products-section h3 {
+  font-family: "Roboto Slab";
+  font-size: 0.88rem;
+  line-height: 1.88rem;
+  margin-bottom: 1.5rem;
+}
+
+.products-botton {
+  font-family: "Roboto";
+  font-size: 1.25rem;
+  font-weight: medium;
+  border-radius: 1.50rem;
+  color: white;
+  background-color: #6c933e;
+  text-align: center;
+  line-height: 2.81rem;
+  text-decoration: none;
+  padding: 0rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-botton-arrow {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2.8rem;
+  height: 2.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1.5rem
+}
+
+.botton-arrow {
+  width: 1.50rem;                        
+  height: auto;
+}
+
+/* PRODUCTS SECTION */
+
+.footer-section {
+  background-color: #4a4a4a;
+  color: #ffffff;
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  text-align: center;
+  line-height: 1.88rem;
+  padding: 3rem 1.06rem 2rem 0.81rem;
+  font-family: 1.00rem;
+}
+
+.footer-content {
+display: grid;
+grid-template-columns: 1fr; /* una sola columna por defecto (móvil) */
+grid-template-areas:
+  "categories"
+  "redes"
+  "info";
+text-align: center;
+}
+
+.categories {
+grid-area: categories;
+}
+
+.redes {
+grid-area: redes;
+}
+
+.footer-info {
+grid-area: info;
+}
+
+.categories-list {
+list-style-type: none;
+padding-bottom: 1.5rem;
+}
+
+.redes-list {
+list-style-type: none;
+padding-bottom: 1.5rem;
+}
+
+.corazon-verde {
+color: #6c933e;
+}
+
+
+/* VERSIÓN TABLET */
+@media (min-width: 768px) {
+
+  .products-section {
+    grid-template-columns: repeat(3, 1fr); /* tres columnas */
+    grid-template-areas:
+      "titulo titulo titulo"
+      "subtitulo subtitulo subtitulo"
+      "mochila estuches bolsas"
+      "boton boton boton";
+  }
+
+  .products-section-tittle {
+    grid-area: titulo;
+  }
+
+  .products-section-text {
+    grid-area: subtitulo;
+  }
+
+  .mochila-section {
+    grid-area: mochila;
+  }
+
+  .estuches-section {
+    grid-area: estuches;
+  }
+
+  .bolsas-section {
+    grid-area: bolsas;
+  }
+
+  .products-botton {
+    grid-area: boton;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "info categories redes";
+    text-align: left;
+    align-items: start;
+    gap: 5rem;
+  }
+} 
+ 
