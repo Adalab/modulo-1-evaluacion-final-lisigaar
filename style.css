@@ -216,7 +216,7 @@
 
 .footer-content {
 display: grid;
-grid-template-columns: 1fr; /* una sola columna por defecto (móvil) */
+grid-template-columns: 1fr; 
 grid-template-areas:
   "categories"
   "redes"
@@ -251,11 +251,57 @@ color: #6c933e;
 }
 
 
-/* VERSIÓN TABLET */
-@media (min-width: 768px) {
+/* VERSIÓN TABLET*/
+@media (min-width: 768px){
 
   .products-section {
     grid-template-columns: repeat(3, 1fr); /* tres columnas */
+    grid-template-areas:
+      "titulo titulo titulo"
+      "subtitulo subtitulo subtitulo"
+      "mochila estuches bolsas"
+      "boton boton boton";
+  }
+
+  .products-section-tittle {
+    grid-area: titulo;
+  }
+
+  .products-section-text {
+    grid-area: subtitulo;
+  }
+
+  .mochila-section {
+    grid-area: mochila;
+  }
+
+  .estuches-section {
+    grid-area: estuches;
+  }
+
+  .bolsas-section {
+    grid-area: bolsas;
+  }
+
+  .products-botton {
+    grid-area: boton;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "info categories redes";
+    text-align: left;
+    align-items: start;
+    gap: 5rem;
+  }
+} 
+ 
+
+/* VERSIÓN ESCRITORIO */
+@media (min-width: 1024px){
+
+  .products-section {
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-areas:
       "titulo titulo titulo"
       "subtitulo subtitulo subtitulo"
